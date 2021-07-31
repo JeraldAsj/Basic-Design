@@ -1,0 +1,312 @@
+/* title style */
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+#title {
+  text-align: center;
+  color: chocolate;
+}
+#header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10;
+  background: rgb(255, 253, 253);
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  
+}
+#logo{
+  padding-top: 3px;
+  margin-right: auto;
+  padding-left: 30px;
+  cursor: pointer;
+}
+#title{
+  margin-right: 400px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#menu ul li {
+  display: inline;
+  padding: 13px;
+}
+#menu ul li a{
+  text-decoration: none;
+  color: rgb(163, 29, 92);
+  font-weight: bolder;
+}
+#menu ul li :hover{
+  text-decoration: none;
+  color: rgb(57, 134, 235);
+  font-weight: bolder;
+  
+}
+/* main  content style */
+#banar{
+  padding-top: 80px;
+  background: url('../img/bg2.jpg') no-repeat center/cover;
+}
+#banar img{
+  margin-left: 850px;
+  height: 450px;
+  width: 450px;
+}
+#banar h1{
+  margin-top: -400px;
+  padding-left: 350px;
+  color: white;
+}
+#banar h1 span{
+  animation-name: name;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+
+}
+#banar h3{
+  padding-left: 350px;
+  margin-top: 50px;
+  line-height: 30px;
+  color: white;
+}
+#banar #ba-bt{
+  margin-left: 350px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+#banar #ba-bt button{
+  padding: 15px;
+  background-color: violet;
+  border-radius: 25px;
+}
+#banar #ba-bt button a{
+  text-decoration:none;
+  font-weight: 900;
+  color: white;
+}
+#banar #ba-bt button a{
+  text-decoration:none;
+  font-weight: 900;
+  color: rgba(3, 1, 1, 0.897);
+}
+#banar #ba-bt button:hover{
+  padding: 15px;
+  background-color: rgb(245, 237, 245);
+}
+/* coures style */
+#coures{
+  padding-top: 20px;
+  padding-left: 13.5rem;  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+#cor-tit{
+  padding-top: 37px;
+  grid-column: 1/-1;
+  margin-right: 170px;
+  text-align: left;
+  color: black;
+  text-align: center;
+}
+#cor{
+  margin-top: -50px;
+  grid-column: 1/-1;
+}
+ #cor img{
+   padding-right: 200px;
+  height: 212px;
+  width:100%; 
+}
+#html img{
+  margin-top: 50px;
+  margin-left: 80px;
+  height: 112px;
+  width: 112px;
+  
+}
+#css img{
+  margin-top: 50px;
+  height: 112px;
+  width: 112px;
+}
+#js img{
+  margin-top: 50px;
+  height: 112px;
+  width: 112px;
+}
+#node img{
+  margin-left: 80px;
+  height: 112px;
+  width: 112px;
+}
+#react img{
+  height: 112px;
+  width: 122px;
+}
+#sql img{
+  height: 112px;
+  width: 112px;
+}
+#html h2 a, #css h2 a, #js h2 a, #node h2 a, #react h2 a, #sql h2 a{
+  color: rgb(136, 90, 122);
+  text-decoration: none;
+  text-align: center;  
+}
+#html h2 a:hover, #css h2 a:hover, #js h2 a:hover, #node h2 a:hover, #react h2 a:hover, #sql h2 a:hover{
+  color: rgb(154, 212, 127);
+  text-decoration: none;
+  text-align: center;  
+}
+#css h2 a, #js h2 a{
+  margin-left: 38px;
+}
+#html h2 a, #node h2 a{
+  margin-left: 100px;
+}
+#sql h2 a{
+  margin-left: 8px;
+}
+/* About style */
+.about {
+  padding-top: 130px;
+  padding-left: 30px;
+  margin-top: -20px;  
+}
+.about img{
+  height: 350px;
+  width: 350px;
+  padding-left: 30px;
+}
+.about h1 {
+  text-align: center;
+}
+.about h2{
+  float: right;
+  margin-top: 30px;
+  margin-right: 480px;
+}
+.about p{
+  margin-left: 490px;
+  margin-top: -250px;
+ font-size: 18px;
+ line-height: 30px;
+}
+
+/* Contect form style */
+#contect{
+  margin-top: 5rem; 
+  padding-left: 70px;
+  padding-bottom: 16rem;
+  background: rgb(165, 218, 188) center center/cover;
+  display: grid;
+  grid-template-columns: 20% 50% 15%;
+  grid-template-rows: 100px 100px 100px 100px;
+  
+}
+#con-tit{
+  padding-top: 37px;
+  grid-column: 1/-1;
+  margin-left: 80px;
+  text-align: left;
+  color: black;
+  text-align: center;
+}
+#con-img img{
+ 
+  padding-right: 3rem;
+  height: 370px;
+  width: 370px;
+}
+#con-des h3{
+  color: white;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+}
+#con-des h3 span{
+  color:black;
+}
+#con-des p{
+  color:white;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-top: 2rem;
+}
+#contect form {
+  margin-left: 110px;
+  background: rgb(230, 82, 82);
+  width: 70%;
+  padding-left: 1.7rem;
+  padding-top: 20px;
+  border-radius: 12px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  
+  width: 89%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  border-radius: 15px;
+  margin-left: 12px;
+  align-items: center;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 18px;
+  margin: 20px;
+  margin-left: 34%;
+}
+
+input[type="submit"]:hover{
+  background-color: #8371d3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 18px;
+  margin: 20px;
+  margin-left: 34%;
+}
+
+/* Footer  style */
+
+.footer{
+  margin-top: 2rem;
+  background-color: violet;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  }
+  .footer span{
+    animation-name: name;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+  }
+  /* Animation   style */
+  @keyframes name {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
+  @keyframes tit {
+    0%   {color: rgb(0, 255, 242);}
+    25%  {color: rgb(255, 0, 179);}
+    50%  {color: rgb(192, 224, 115);}
+    100% {color: rgb(128, 0, 75);}
+  }
